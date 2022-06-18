@@ -40,26 +40,31 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-35",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 306.0, 205.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"candycane" : 3,
-					"id" : "obj-33",
+					"contdata" : 1,
+					"id" : "obj-36",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 219.0, 574.5, 531.0, 242.0 ],
+					"patching_rect" : [ 219.0, 578.0, 337.0, 136.0 ],
+					"setminmax" : [ 0.0, 127.0 ],
+					"settype" : 0,
 					"size" : 8
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-35",
+					"linecount" : 8,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 306.0, 205.0, 50.0, 116.0 ],
+					"text" : "127 127 127 127 127 127 127 127"
 				}
 
 			}
@@ -89,6 +94,7 @@
 , 			{
 				"box" : 				{
 					"candycane" : 3,
+					"contdata" : 1,
 					"id" : "obj-42",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
@@ -96,6 +102,8 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 67.0, 24.0, 337.0, 136.0 ],
+					"setminmax" : [ 0.0, 127.0 ],
+					"settype" : 0,
 					"size" : 8
 				}
 
@@ -174,7 +182,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
+					"destination" : [ "obj-36", 0 ],
 					"source" : [ "obj-17", 1 ]
 				}
 
@@ -207,28 +215,28 @@
 		"dependency_cache" : [ 			{
 				"name" : "CH-Client-Title.png",
 				"bootpath" : "~/Documents/Max 8/Packages/Collab-Hub/media/img/for-bpatchers",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/Collab-Hub/media/img/for-bpatchers",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/Collab-Hub/media/img/for-bpatchers",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CH-Client.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Collab-Hub/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/Collab-Hub/patchers",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/Collab-Hub/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CH-ClientInstanceManager.js",
 				"bootpath" : "~/Documents/Max 8/Packages/Collab-Hub/javascript",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/Collab-Hub/javascript",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/Collab-Hub/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CH-ClientScript.js",
 				"bootpath" : "~/Documents/Max 8/Packages/Collab-Hub/javascript",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/Collab-Hub/javascript",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/Collab-Hub/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
